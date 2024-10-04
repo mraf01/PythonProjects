@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h2>Accedi</h2>
+    <form method="POST">
+        <label for="username">Nome utente:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Accedi">
+    </form>
+    <br>
+    <a href="{{ url_for('register') }}">Non hai un account? Registrati</a>
+</body>
+</html>

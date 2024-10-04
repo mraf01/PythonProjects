@@ -1,0 +1,90 @@
+<!-- <html></html>
+    <head>
+        <title>
+            Ciao a tutti
+        </title>
+    </head>
+    <body>
+        <img src="https://creare-sito-web-gratis.it/wp-content/uploads/2023/09/come-creare-pagina-non-trovata-elementor-1024x580.jpg">
+        La registrazione non è terminata correttamente. Si prega di riprovare.
+    </body>
+</html>
+ -->
+
+ <!DOCTYPE html>
+ <html lang="it">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Registrazione Fallita</title>
+     <style>
+         body {
+             margin: 0;
+             padding: 0;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             height: 100vh;
+             font-family: 'Arial', sans-serif;
+             background: linear-gradient(to right, #ffcccc, #ffe6e6);
+             color: #333;
+             text-align: center;
+         }
+ 
+         .container {
+             background-color: white;
+             padding: 30px;
+             border-radius: 15px;
+             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+         }
+ 
+         h1 {
+             font-size: 2.5em;
+             margin-bottom: 20px;
+             color: #d32f2f;
+         }
+ 
+         p {
+             font-size: 1.2em;
+             margin-bottom: 30px;
+         }
+ 
+         img {
+             border-radius: 10px;
+             max-width: 100%;
+             height: auto;
+         }
+ 
+         .image-container {
+             margin: 20px 0;
+         }
+ 
+         a {
+             text-decoration: none;
+             color: #fff;
+             background-color: #f44336;
+             padding: 10px 20px;
+             border-radius: 5px;
+             font-size: 1.1em;
+         }
+ 
+         a:hover {
+             background-color: #d32f2f;
+         }
+     </style>
+ </head>
+ <body>
+     <div class="container">
+         <h1>Registrazione Fallita</h1>
+         <p>La registrazione non è terminata correttamente. Si prega di riprovare.</p>
+         
+         <!-- Immagine di errore -->
+         <div class="image-container">
+             <img src="{{ url_for('static', filename='img/registrazione_ko.jpg') }}" alt="Errore registrazione">
+         </div>
+ 
+         <a href="/">Torna alla pagina iniziale</a>
+     </div>
+ </body>
+ </html>
+ 

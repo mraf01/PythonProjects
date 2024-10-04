@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Benvenuto, {{ nome }} {{ cognome }}</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #f7cac9, #92a8d1);
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        img {
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .image-container {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ciao {{ nome }} {{ cognome }}!</h1>
+        <p>Sei un utente registrato. Sesso: {{ sesso }}</p>
+        
+        <!-- Immagine di benvenuto -->
+        <div class="image-container">
+            <img src="https://customers.ai/wp-content/uploads/2020/12/welcome-greeting-message-1024x536.png" alt="Welcome Image">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Benvenuto nella Home</h1>
+    <img src="/static/img/benvenuto.jpg" alt="Immagine di benvenuto" width="400">
+    <div>
+        <a href="{{ url_for('login') }}"><button>Accedi</button></a>
+        <a href="{{ url_for('register') }}"><button>Registrati</button></a>
+    </div>
+</body>
+</html>
