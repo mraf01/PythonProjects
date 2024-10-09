@@ -1,7 +1,7 @@
 import requests, json, sys
 
 
-base_url = "https://172.22.46.90:8080"
+base_url = "https://127.0.0.1:8080"
 
 
 def GetDatiCittadino():
